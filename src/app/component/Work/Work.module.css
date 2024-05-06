@@ -1,0 +1,82 @@
+/* ワーク　*/
+.work {
+  background: linear-gradient(#030303, rgb(161, 43, 0));
+
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+.work h2 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.court {
+  background-color: #fff;
+  display: grid;
+  width: 100%;
+  aspect-ratio: 26 / 12;
+  grid-template:
+    "... ... ... ... ... ... ... ... ..." auto
+    "... leftAlleyBack leftAlleyBack leftAlleyBack ... rightAlleyFore rightAlleyFore rightAlleyFore ..." 12%
+    "... ... ... ... ... ... ... ... ..." auto
+    "... mainLeft ... leftServiceBack ... rightServiceFore ... mainRight ..." 37%
+    "... mainLeft ... ... ... ...  ... mainRight ..." auto
+    "... mainLeft ... leftServiceFore ... rightServiceBack ... mainRight ..." 37%
+    "... ... ... ... ... ... ... ... ..." auto
+    "... alleyFore alleyFore alleyFore ...alleyBack alleyBack alleyBack ..." 12%
+    "... ... ... ... ... ... ... ... ..." auto
+    / auto 22.7% auto 26.65% auto 26.65% auto 22.7% auto;
+}
+.cray {
+  background-color: rgb(161, 43, 0);
+}
+.cray a {
+  display: block;
+  height: 100%;
+  font-size: 1.5rem;
+  color: yellowgreen;
+  padding-left: 15px;
+}
+.cray:hover {
+  background-color: rgb(179, 120, 99);
+}
+.court1 {
+  grid-area: leftAlleyBack;
+}
+.court2 {
+  grid-area: rightAlleyFore;
+}
+.court3 {
+  grid-area: mainLeft;
+}
+.court4 {
+  grid-area: leftServiceBack;
+}
+.court5 {
+  grid-area: rightServiceFore;
+}
+.court6 {
+  grid-area: mainRight;
+}
+.court7 {
+  grid-area: leftServiceFore;
+}
+.court8 {
+  grid-area: rightServiceBack;
+}
+.court9 {
+  grid-area: alleyFore;
+}
+.court10 {
+  grid-area: alleyBack;
+}
+.js-white {
+  background-color: rgb(179, 120, 99);
+}

@@ -1,0 +1,71 @@
+.skill {
+  background-color: #030303;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+.skill h2 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.gameLike {
+  font-family: "DotGothic16", sans-serif;
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.skillText {
+  display: inline-block;
+  border: solid #fff 2.5px;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+  width: 70%;
+  margin: 0;
+}
+.skillText p {
+  font-size: 1.25rem;
+}
+.skillText :first-child {
+  display: block;
+}
+.skillContents {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: #fff solid 2.5px;
+  border-radius: 5px;
+  background-color: #000;
+  max-width: 200px;
+  min-width: 150px;
+  margin: 1px 2px 1px 0;
+  font-size: 1.2rem;
+  padding: 8px 0 8px 35px;
+}
+.skillContents li {
+  display: block;
+  margin-bottom: 15px;
+  position: relative;
+  color: #fff;
+}
+.allow {
+  content: "";
+  border-left: 8px solid #fff;
+  border-top: solid 8px transparent;
+  border-bottom: solid 8px transparent;
+  position: absolute;
+  left: -20px;
+  top: 9px;
+  transition: 0.9s;
+}
+.js-allow::before {
+  display: block;
+}

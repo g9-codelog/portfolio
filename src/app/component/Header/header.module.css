@@ -1,0 +1,76 @@
+/*　ヘッダー　*/
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.imageBox {
+  height: 100vh;
+  position: relative;
+}
+.header img {
+  object-fit: cover;
+  object-position: 0 90%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.mainTitle {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 9rem;
+  font-weight: bold;
+  color: #eee;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  opacity: 80%;
+  min-width: 650px;
+}
+.stringsRow,
+.stringsColumn {
+  display: flex;
+  position: absolute;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.stringsRow {
+  flex-direction: column;
+  width: 100%;
+  left: 0%;
+  top: 37%;
+}
+.stringsRow span,
+.stringsColumn span {
+  display: inline-block;
+  content: "";
+  background-color: #000;
+  margin: 15px;
+}
+.stringsRow span {
+  height: 2px;
+  width: 100%;
+}
+.stringsColumn span {
+  height: 100%;
+  width: 2px;
+}
+.stringsRow:hover {
+  width: 0%;
+  left: 30%;
+}
+.stringsColumn {
+  left: 50%;
+  top: 50%;
+  transform: translate(-300px, -50%);
+  height: 100%;
+}
+.stringsColumn:hover {
+  height: 0;
+  top: 35%;
+}

@@ -1,0 +1,72 @@
+/* アバウト　*/
+.about {
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background: linear-gradient(rgb(0, 53, 212), #030303);
+}
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+.h2 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.aboutContents {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.aboutContents li {
+  display: inline-block;
+  height: 15%;
+  width: 150px;
+  background-color: #fff;
+  border: #333 1px solid;
+  border-radius: 10%;
+  text-align: center;
+}
+.aboutText {
+  display: block;
+  width: 37%;
+  margin: 0 auto;
+  background-color: rgba(9, 73, 0, 0.61);
+  color: #fff;
+  border: solid 4px rgb(87, 34, 18);
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 15px 90px 15px 15px;
+  position: relative;
+  min-height: 200px;
+}
+.aboutText::after {
+  content: "○月×日　日直";
+  color: #fff;
+  writing-mode: vertical-rl;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+}
+.aboutText p {
+  text-align: left;
+}
+.tennis {
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.3);
+}
+.game {
+  color: rgba(219, 3, 219, 0.712);
+  background-color: rgba(51, 51, 51, 0.4);
+}
+.program {
+  color: yellow;
+  background-color: rgba(51, 51, 51, 0.3);
+}
+.teacher {
+  color: rgba(0, 132, 255, 0.836);
+  background-color: rgba(51, 51, 51, 0.4);
+}
